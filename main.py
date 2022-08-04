@@ -30,5 +30,5 @@ try:
 except:
     print('已经签到过了！')
 
-time.sleep(2)
+time.sleep(6)
 driver.quit()
