@@ -26,6 +26,7 @@ close_shit.click()'''  # 免费用户需要启用
 try:
     sign_btn = driver.find_element(By.ID, 'checkin')
     sign_btn.click()
+    print('签到完成！')
 
 except:
     print('已经签到过了！')
